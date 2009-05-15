@@ -1,0 +1,14 @@
+#!/bin/bash
+# script to maintain my homedir clean, move unclassified files to $WHATEVER
+
+export WHITELIST="$HOME/.whitelist"
+export WHATEVER="$HOME/tmp/dumping"
+export IFS="
+"
+
+cd $HOME
+for i in $(ls -1); do
+    if [ -z "$(grep ^$i$ $WHITELIST)" ]; then
+        mv $i $WHATEVER
+    fi
+done

@@ -1,0 +1,3 @@
+dvd-device=/dev/dvd
+vo=xv
+ao=alsa

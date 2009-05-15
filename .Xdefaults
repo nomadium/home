@@ -1,0 +1,14 @@
+xterm*cursorBlink: true
+xterm*loginShell: false
+xterm*multiScroll: true
+xterm*saveLines: 10000
+xterm*font: -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso10646-1
+xterm*locale: true
+xterm*eightBitInput: false
+xterm*background: #222222
+xterm*foreground: #777777
+xterm*geometry: 80x24+0+0
+xterm*on2Clicks: regex [^/@ \n]+
+xterm*on3Clicks: regex [^ \n]+
+xterm*on4Clicks: regex [^#$]+
+xterm*on5Clicks: line

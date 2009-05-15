@@ -1,3 +1,7 @@
+# private settings in private repositories, thanks
+.gnupg
+.ssh
+
 # settings of programs that I don't care about
 .AbiSuite
 .adobe
@@ -60,6 +64,7 @@
 .rnd
 .sqlite_history
 .stella
+.subversion
 .supertux
 .thumbnails
 .tvtime
